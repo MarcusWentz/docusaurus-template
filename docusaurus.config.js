@@ -78,8 +78,8 @@ module.exports = {
             // className: 'navbar_item_button',
           },
           {
-            href: '/faucet/claim#shardeum-discord-website',
-            label: 'Claim Testnet SHM',
+            href: 'https://discord.com/invite/shardeum',
+            label: 'Claim Testnet SHM Discord Faucet',
             position: 'left',
             // className: 'navbar_item_button',
           },
@@ -142,7 +142,7 @@ module.exports = {
               },
               {
                 label: 'Discord',
-                to: 'https://discord.gg/gx2SFZDDSM',
+                to: 'https://discord.com/invite/shardeum',
               },
               {
                 label: 'Twitter',
