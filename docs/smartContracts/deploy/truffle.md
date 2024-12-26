@@ -147,7 +147,7 @@ module.exports = function(deployer) {
 ## Configuring Truffle For Shardeum Liberty
 
 - Go to truffle-config.js (located in root directory)
-- Update with Shardeum Liberty details ([available here](/Network/endpoints))
+- Update with Shardeum Liberty details ([available here](/network/endpoints))
 
 <Tabs>
   <TabItem value="javascript" label="Javascript" default>

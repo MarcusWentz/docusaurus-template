@@ -4,9 +4,9 @@ This website is built using [Docusaurus 3.4.0](https://docusaurus.io/), a modern
 
 ### Installation
 
-Node Version 18.0.0
+Node Version 22.2.0
 ```
-nvm use 18.0.0
+nvm use v22.2.0
 ```
 Install npm packages:
 ```

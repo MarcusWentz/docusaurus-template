@@ -12,7 +12,7 @@ Shardeum is a blockchain that supports EVM smart contracts.
 
 For more general information on Shardeum:
 
-[What is Shardeum?](/Introduction/What-Is-Shardeum)
+[What is Shardeum?](/introduction/what-is-shardeum)
 
 ## Cross Shard Composability with Linear Scaling
 
@@ -21,11 +21,11 @@ Horizontally scaling in this fashion allows for high transactions per second at 
 
 Find out more about Shardeum nodes:
 
-[Shardeum Node Types](/Node/Types)
+[Shardeum Node Types](/node/types)
 
 Running nodes:
 
-[How to run a validator node](/Node/Run/Validator)
+[How to run a validator node](/node/run/validator)
 
 ## Wallet Setup For Using Shardeum
 
@@ -37,19 +37,19 @@ You will need an EVM wallet like Metamask to:
 
 For more info on Metamask:
 
-[Metamask Introduction](/Wallets/Metamask/Introduction)
+[Metamask Introduction](/wallets/metamask/introduction)
 
 ## Fund Your Wallet With SHM On Shardeum
 
 Find out how to get testnet tokens from our faucets here:
 
-[Claim LIberty 100 SHM From Shardeum Faucets](/Faucet/Claim)
+[Claim LIberty 100 SHM From Shardeum Faucets](/faucet/claim)
 
 ## Connect Wallet To Shardeum
 
 Connect to Shardeum using the following network endpoints found here:
 
-[Shardeum Endpoints](/Network/Endpoints)
+[Shardeum Endpoints](/network/endpoints)
 
 Note: you can quickly connect your Metamask to Shardeum with:
 
@@ -59,34 +59,34 @@ Note: you can quickly connect your Metamask to Shardeum with:
 
 View transactions on Shardeum using the Shardeum Explorer:
 
-[Shardeum Explorer](/Network/Explorer)
+[Shardeum Explorer](/network/explorer)
 
 ## Deploy Contracts to Shardeum
 
 Since Shardeum is EVM compatible, you can use the following frameworks to deploy to Shardeum:
 
-[Remix IDE](/SmartContracts/Deploy/Remix)
+[Remix IDE](/smartContracts/deploy/remix)
 
-[Foundry](/SmartContracts/Deploy/Foundry)
+[Foundry](/smartContracts/deploy/foundry)
 
-[Hardhat](/SmartContracts/Deploy/Hardhat)
+[Hardhat](/smartContracts/deploy/hardhat)
 
-[Truffle](/SmartContracts/Deploy/Truffle)
+[Truffle](/smartContracts/deploy/truffle)
 
 To deploy contracts at the same address cross chain:
 
-[Same Address Cross Chain](/SmartContracts/Deploy/SameAddress)
+[Same Address Cross Chain](/smartContracts/deploy/sameAddress)
 
 ## Deploying Tokens To Shardeum
 
 All EVM based token standards are supported on Shardeum (since Shardeum is EVM compatible).
 Popular tokens supported on Shardeum:
 
-[ERC-20 (Fungible Tokens)](/SmartContracts/Tokens/ERC-20)
+[ERC-20 (Fungible Tokens)](/smartContracts/tokens/ERC-20)
 
-[ERC-721 (NFTs)](/SmartContracts/Tokens/ERC-721)
+[ERC-721 (NFTs)](/smartContracts/tokens/ERC-721)
 
-[ERC-1155 (Token Emulator)](/SmartContracts/Tokens/ERC-1155)
+[ERC-1155 (Token Emulator)](/smartContracts/tokens/ERC-1155)
 
 ## Cross Shard Composability Communication With EIP-2930
 
@@ -95,7 +95,7 @@ The EIP-2930 accessList is used for shard routing contracts on different shards 
 
 For more info on how the EIP-2930 accessList works on Shardeum:
 
-[EIP-2930 Overview](/SmartContracts/EIP-2930/MulticallContract)
+[EIP-2930 Overview](/smartContracts/EIP-2930/multicallContract)
 
 ## Integrate File Storage Into Shardeum
 
@@ -103,10 +103,10 @@ We recommend users to use decentralized file storage standards like IPFS and Fil
 
 Files stored on IPFS can be used in contracts to deploy contracts with CID values as shown in this example:
 
-[IPFS and Filecoin](/Storage/IPFSandFilecoin)
+[IPFS and Filecoin](/storage/ipfsAndFilecoin)
 
 ## Oracles on Shardeum
 
 Get off chain data securely on Shardeum using oracle providers.
 
-[SupraOracles](/Oracles/SupraOracles)
+[SupraOracles](/oracles/supraoracles)

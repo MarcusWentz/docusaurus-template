@@ -143,7 +143,7 @@ contract testToken is ERC20 {
 ## Configuring Hardhat For Shardeum Liberty
 
  - Go to hardhat-config.js (located in root directory)
- - Update with Shardeum Liberty details ([available here](/Network/endpoints))
+ - Update with Shardeum Liberty details ([available here](/network/endpoints))
 
 <Tabs>
  <TabItem value="javascript" label="Javascript" default>

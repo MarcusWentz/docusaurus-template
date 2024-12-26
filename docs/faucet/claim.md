@@ -49,7 +49,7 @@ Video tutorial on using Shardeum Discord Faucet:
 
 ## Shardeum Faucet Website
 
-1. After adding the Shardeum Liberty network to popular wallets such as MetaMask ([guide here](/wallets/MetaMask/add-shardeum-network)), you can claim testnet SHM from Shardeum Liberty faucet. The SHM can then be used to deploy smart contracts and build dApps on Liberty.
+1. After adding the Shardeum Liberty network to popular wallets such as MetaMask ([guide here](/wallets/metamask/add-shardeum-network)), you can claim testnet SHM from Shardeum Liberty faucet. The SHM can then be used to deploy smart contracts and build dApps on Liberty.
 
 2. Visit the Shardeum Liberty faucet:
 

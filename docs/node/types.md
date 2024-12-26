@@ -31,7 +31,7 @@ Wallets must be connected to an RPC URL to interact with blockchains for example
 
 Public Shardeum RPC URL endpoints:
 
-[Shardeum Endpoints](/Network/Endpoints)
+[Shardeum Endpoints](/network/endpoints)
 
 Read RPC method example:
 

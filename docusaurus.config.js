@@ -11,6 +11,7 @@ module.exports = {
   url: 'https://docs.shardeum.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'Shardeum', // Usually your GitHub org/user name.
