@@ -9,7 +9,7 @@ module.exports = {
   title: 'Shardeum Docs',
   tagline: 'Explore Shardeum Docs',
   url: 'https://docs.shardeum.org',
-  baseUrl: '/',
+  baseUrl: '/docusaurus-template/',
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onBrokenMarkdownLinks: 'warn',
