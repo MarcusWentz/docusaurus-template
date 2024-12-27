@@ -1,6 +1,10 @@
 # Shardeum Documentation Site
 
-This website is built using [Docusaurus 3.4.0](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 3.6.3](https://docusaurus.io/), a modern static website generator.
+
+### GitHub Pages Hosted Website
+
+https://marcuswentz.github.io/docusaurus-template/
 
 ### Installation
 
@@ -33,21 +37,55 @@ npm run build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
+### GitHub Pages Deployment Guide
 
-Using SSH:
+1. Go to the following project path as an admin to a GitHub repo:
 
-```
-USE_SSH=true npm run deploy
-```
+`https://github.com/"repo-owner"/"repo-name"/settings/pages`
 
-Not using SSH:
+2. On that page, find
 
 ```
-GIT_USER=<Your GitHub username> npm run deploy
+    Build and deployment
+        Source
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+then click the drop down options to click 
+
+`GitHub Actions`
+
+3. Copy YAML files:
+
+```
+deploy.yml
+test-deploy.yml
+```
+
+into:
+
+`.github/workflows/mdbook.yml`
+
+from this guide under:
+
+`Same > Github action files`
+
+and modify files from yarn to npm as shown in the guide
+
+```
+If you use npm, change:
+    -cache: yarn, 
+    -yarn install --frozen-lockfile, 
+    -yarn build 
+to 
+    -cache: npm, 
+    -npm ci, 
+    -npm run build 
+accordingly.
+```
+
+here:
+
+https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions
 
 ### Search Bar
 
