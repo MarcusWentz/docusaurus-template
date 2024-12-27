@@ -8,7 +8,7 @@ https://marcuswentz.github.io/docusaurus-template/
 
 ### Installation
 
-Node Version 22.2.0
+Node Version v22.2.0
 ```
 nvm use v22.2.0
 ```
