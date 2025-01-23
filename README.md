@@ -1,6 +1,6 @@
 # Shardeum Documentation Site
 
-This website is built using [Docusaurus 3.6.3](https://docusaurus.io/), a modern static website generator.
+This website is built using Docusaurus 3.7.0, a modern static website generator.
 
 ### GitHub Pages Hosted Website
 
@@ -8,13 +8,13 @@ https://marcuswentz.github.io/docusaurus-template/
 
 ### Installation
 
-Node Version v22.2.0
+Node Version v23.3.0
 ```
-nvm use v22.2.0
+nvm use v23.3.0
 ```
 Install npm packages:
 ```
-npm install
+npm i
 ```
 or
 ```
