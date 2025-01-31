@@ -43,11 +43,14 @@ module.exports = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      algolia: {
-        appId: "CK38X87BB3",
-        apiKey: "6d53d06cfe9c8cb794826061687d47b5",
-        indexName: "shardeum"
-      },
+     
+      
+      // algolia: {
+      //   appId: "CK38X87BB3",
+      //   apiKey: "6d53d06cfe9c8cb794826061687d47b5",
+      //   indexName: "shardeum"
+      // },
+     
       imageZoom: {
      // CSS selector to apply the plugin to, defaults to '.markdown img'
      // selector: '.markdown img',
@@ -208,9 +211,9 @@ module.exports = {
         respectPrefersColorScheme: true
       }
     }),
-  // plugins: ['docusaurus-plugin-sass',
-  //           'plugin-image-zoom',
-  //           'docusaurus-lunr-search'],
-    plugins: ['docusaurus-plugin-sass',
-    'plugin-image-zoom'],
+  plugins: [
+    'docusaurus-plugin-sass',
+    'plugin-image-zoom',
+    'docusaurus-lunr-search'
+  ],
 };
