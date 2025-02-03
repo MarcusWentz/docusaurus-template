@@ -9,7 +9,12 @@ module.exports = {
   title: 'Shardeum Docs',
   tagline: 'Explore Shardeum Docs',
   url: 'https://docs.shardeum.org',
-  baseUrl: '/docusaurus-template/',
+  // // GitHub Pages baseUrl.
+  // baseUrl: '/docusaurus-template/',
+  // // Vercel baseUrl.
+  // baseUrl: '/',
+  // Test if logic to switch between GitHub Page and Vercel baseUrl values.
+  baseUrl: isGitHubPages ? "/REPOSITORY/" : "/",
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onBrokenMarkdownLinks: 'warn',
