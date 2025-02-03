@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const isGitHubPages = !!process.env.GITHUB_ACTIONS; // Auto-detect GitHub Actions
+
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'Shardeum Docs',
@@ -14,7 +16,7 @@ module.exports = {
   // // Vercel baseUrl.
   // baseUrl: '/',
   // Test if logic to switch between GitHub Page and Vercel baseUrl values.
-  baseUrl: isGitHubPages ? "/docusaurus-template/" : "/",
+  baseUrl: isGitHubPages ? `/docusaurus-template/` : "/",
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onBrokenMarkdownLinks: 'warn',
