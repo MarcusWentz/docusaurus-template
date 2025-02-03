@@ -14,7 +14,7 @@ module.exports = {
   // // Vercel baseUrl.
   // baseUrl: '/',
   // Test if logic to switch between GitHub Page and Vercel baseUrl values.
-  baseUrl: isGitHubPages ? "/REPOSITORY/" : "/",
+  baseUrl: isGitHubPages ? "/docusaurus-template/" : "/",
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
   onBrokenMarkdownLinks: 'warn',
