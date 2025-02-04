@@ -87,6 +87,19 @@ here:
 
 https://docusaurus.io/docs/deployment#triggering-deployment-with-github-actions
 
+### Vercel Pages Hosting and CI/CD Pull Request Build and Preview Pipeline
+
+Setup Steps:
+
+1. On the Vercel Dashboard, navigate to:
+```
+Add New > Project Import Git Repository Select Repo
+```
+2. Then on pages, navigate to:
+```
+Framework Preset > Docusaurus > Deploy
+```
+
 ### Search Bar
 
 Add Algolia Search Bar with API Key:
