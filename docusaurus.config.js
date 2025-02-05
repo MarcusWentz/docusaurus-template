@@ -33,7 +33,7 @@ module.exports = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/MarcusWentz/docusaurus-template/blob/main/docs/',
+          editUrl: 'https://github.com/MarcusWentz/docusaurus-template/blob/main/',
         },
         blog:false,
         theme: {
